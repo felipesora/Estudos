@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+/* font-family: "Prata", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Montserrat", serif; */
+
+:root{
+    --fonte-titulos: "Prata", serif;
+    --fonte-textos-corridos: "Montserrat", serif;
+}
+
+
+.formulario h2{
+    font-family: var(--fonte-titulos);
+    font-weight: 400;
+}
+
+.campo-texto {
+    font-family: var(--fonte-textos-corridos);
+}
+
+.campo-texto input{
+    font-family: var(--fonte-textos-corridos);
+}
+
+.lista-suspensa {
+    font-family: var(--fonte-textos-corridos);
+}
+
+.lista-suspensa select {
+    font-family: var(--fonte-textos-corridos);
+}
+
+.botao{
+    font-family: var(--fonte-textos-corridos);
+}
+
+.texto_organizacao{
+    display: flex;
+    justify-content: center;
+}
+
+.texto_organizacao h2{
+    color: #6278F7;
+    margin-bottom: 80px;
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 9px;
+    font-family: var(--fonte-titulos);
+    font-weight: 300;
+}
