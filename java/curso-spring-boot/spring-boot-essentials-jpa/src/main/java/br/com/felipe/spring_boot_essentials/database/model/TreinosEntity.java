@@ -3,24 +3,34 @@ package br.com.felipe.spring_boot_essentials.database.model;
 import jakarta.persistence.*;
 import lombok.*;
 
-import java.math.BigDecimal;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
-@Table(name = "exercicios")
+@Table(name = "treinos")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ExerciciosEntity {
+public class TreinosEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(nullable = false)
-    private String peso;
+    private String nome;
 
-    @Column(name = "grupo_muscular", nullable = false)
-    private String grupoMuscular;
+    @ManyToOne
+    @JoinColumn(name = "aluno_id")
+    private AlunosEntity aluno;
+
+    @ManyToMany
+    @JoinTable(
+            name = "treinos_exercicios",
+            joinColumns = @JoinColumn(name = "treino_id"),
+            inverseJoinColumns = @JoinColumn(name = "exercicio_id")
+    )
+    private Set<ExerciciosEntity> exercicios = new HashSet<>();
 }
