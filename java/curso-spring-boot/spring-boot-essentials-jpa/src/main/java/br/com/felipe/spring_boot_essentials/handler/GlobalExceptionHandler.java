@@ -1,5 +1,6 @@
 package br.com.felipe.spring_boot_essentials.handler;
 
+import br.com.felipe.spring_boot_essentials.exception.BadRequestException;
 import br.com.felipe.spring_boot_essentials.exception.ErrorResponse;
 import br.com.felipe.spring_boot_essentials.exception.NotFoundException;
 import org.springframework.http.HttpStatus;
@@ -18,6 +19,16 @@ public class GlobalExceptionHandler {
                 .build();
 
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(response);
+    }
+
+    @ExceptionHandler(BadRequestException.class)
+    public ResponseEntity<ErrorResponse> handleBadRequestException(BadRequestException ex) {
+        ErrorResponse response = ErrorResponse.builder()
+                .message(ex.getMessage())
+                .status(HttpStatus.BAD_REQUEST.value())
+                .build();
+
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
     }
 
     @ExceptionHandler(Exception.class)

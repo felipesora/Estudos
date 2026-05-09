@@ -26,10 +26,10 @@ public class AlunosEntity {
     @Column(nullable = false, unique = true)
     private String email;
 
-    @OneToOne
+    @OneToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.LAZY)
     @JoinColumn(name = "avaliacao_fisica_id")
     private AvaliacoesFisicasEntity avaliacaoFisica;
 
-    @OneToMany(mappedBy = "aluno")
+    @OneToMany(mappedBy = "aluno", fetch = FetchType.LAZY)
     private Set<TreinosEntity> treinos = new HashSet<>();
 }
