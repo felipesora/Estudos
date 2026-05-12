@@ -1,0 +1,18 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: spring-boot-essentials-security
+  datasource:
+    url: jdbc:mysql://localhost:3306/gym_security?createDatabaseIfNotExist=true
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  expiration: ${JWT_EXPIRATION:900000} # 15 minutos
+  key: ${JWT_KEY:ZkZk0d0pL_0OSbdf-QoXf1&V#ZEMflRGtQaNOlgUIOGHYk9FPzAPS0Af$9KMoX!OLa-vdby=!c$VaQwiJdNW#u-$3hrj=$-uAnq42t_YGedoikb6NdoB_SDMBk$7j0jID_QpNJ8lzgQGaDwl5psc88bMYj6C5YkA2pUWT86$7RoS-v20qhLJ0B0aqQDkBZJohIBhdJS93DNs7=nc4l45hDMC6fY3dfJ#gtUG&Mj#u$uS0!N=Tzm=72JO&SfB0V3e9P&gUb3p2k4f!4C_HLA0dk$4nBldaO9lHyrZSVSRQoqrkNcq2hhX=CGj0vLltg5=6dLVIZ5$1_OA#NgrmdpWB&Kr}
