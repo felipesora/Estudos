@@ -1,4 +1,4 @@
-package br.com.alura.codechella.domain;
+package br.com.alura.codechella.domain.valueobject;
 
 public class Endereco {
 

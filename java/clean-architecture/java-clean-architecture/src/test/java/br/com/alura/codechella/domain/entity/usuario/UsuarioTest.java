@@ -1,11 +1,10 @@
-package br.com.alura.codechella.domain.entities.usuario;
+package br.com.alura.codechella.domain.entity.usuario;
 
+import br.com.alura.codechella.domain.builder.UsuarioBuilder;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class UsuarioTest {
 
@@ -23,13 +22,12 @@ class UsuarioTest {
 
     @Test
     public void deveCriarUsuarioUsandoFabricaDeUsuario() {
-        FabricaDeUsuario fabrica = new FabricaDeUsuario();
-        Usuario usuario = fabrica.comNomeCpfNascimento("Felipe", "123.456.789-00", LocalDate.parse("2005-10-13"));
+        Usuario usuario = new UsuarioBuilder()
+                .comNomeCpfNascimento("Felipe", "123.456.789-00", LocalDate.parse("2005-10-13"))
+                .incluiEndereco("12345-99", 40, "apto 133")
+                .build();
 
         Assertions.assertEquals("Felipe", usuario.getNome());
-
-        usuario = fabrica.incluiEndereco("12345-99", 40, "apto 133");
-
         Assertions.assertEquals("apto 133", usuario.getEndereco().getComplemento());
     }
 }
