@@ -1,0 +1,7 @@
+langchain
+langchain-ollama
+langchain-classic
+ollama
+jupyter
+ipykernel
+python-dotenv
