@@ -24,11 +24,7 @@ chain_explicacao = prompt_explicacao | llm
 chain_resumo = prompt_resumo | llm
 
 
-chain = (
-    {"explicacao": chain_explicacao}
-    | prompt_resumo
-    | llm
-)
+chain = ({"explicacao": chain_explicacao} | prompt_resumo | llm)
 
 
 resultado = chain.invoke({

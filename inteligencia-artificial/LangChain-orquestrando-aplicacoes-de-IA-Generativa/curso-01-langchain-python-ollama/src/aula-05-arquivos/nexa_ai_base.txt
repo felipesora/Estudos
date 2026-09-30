@@ -1,0 +1,76 @@
+Nexa AI - Base de Conhecimento
+
+Sobre o produto
+A Nexa AI é uma plataforma de produtividade que utiliza inteligência artificial para ajudar usuários a organizar tarefas, agenda, prioridades e planos pessoais.
+
+Central IA
+A Central IA é a área destinada às funcionalidades de inteligência artificial. Entre as principais ações estão:
+- Criar tarefa
+- Organizar agenda
+- Criar plano
+- Reorganizar prioridades
+- Analisar produtividade
+
+Criar tarefa
+O usuário descreve uma atividade em linguagem natural. A IA pode sugerir título, prioridade, prazo e workspace antes da confirmação da tarefa.
+
+Organizar agenda
+Ajuda a estruturar compromissos e tarefas de acordo com os horários disponíveis, reduzindo conflitos de horário.
+
+Criar plano
+Transforma um objetivo maior em etapas menores e pode sugerir uma sequência de tarefas para alcançar o objetivo.
+
+Reorganizar prioridades
+Analisa as tarefas e pode sugerir uma nova ordem considerando importância, urgência e prazo.
+
+Analisar produtividade
+Utiliza informações sobre tarefas e atividades para gerar uma visão geral da rotina e identificar oportunidades de melhoria.
+
+Workspaces
+Workspaces separam diferentes áreas da vida ou projetos. Exemplos: Nexa AI, Faculdade e Projetos pessoais.
+
+Arquitetura
+A Nexa AI utiliza uma arquitetura baseada em microsserviços. Entre os serviços estão Auth Service, Task Service e AI Service.
+
+Auth Service
+Responsável pelo gerenciamento de usuários e autenticação.
+
+Task Service
+Responsável pelo gerenciamento de tarefas, incluindo criação, edição, exclusão, categorias, prioridades, prazos e status.
+
+AI Service
+Responsável pelas funcionalidades de inteligência artificial. Pode interpretar a intenção do usuário e utilizar modelos de linguagem para gerar respostas ou executar ações relacionadas às tarefas.
+
+Banco de dados
+A aplicação utiliza MySQL como banco de dados.
+
+Mensageria
+A arquitetura considera mensageria entre serviços. RabbitMQ pode ser utilizado para jobs e comandos assíncronos, enquanto Kafka pode ser utilizado para eventos.
+
+IA local
+O projeto utiliza Ollama para executar modelos localmente. Um dos modelos utilizados é o Qwen 3 4B.
+
+LangChain
+LangChain é utilizado para construir aplicações que integram modelos de linguagem com prompts, ferramentas, memória, retrieval e outras etapas de processamento.
+
+Retrieval
+Retrieval é o processo de buscar informações relevantes em documentos ou bases de dados. Em RAG, os trechos recuperados são enviados ao modelo como contexto para gerar uma resposta fundamentada.
+
+Embeddings
+Embeddings são representações numéricas de informações. Um texto é transformado em um vetor que representa características semânticas. Textos com significado semelhante tendem a possuir vetores semanticamente próximos.
+
+Vector Store
+Um vector store armazena embeddings e permite buscas por similaridade. Uma consulta também pode ser transformada em embedding e comparada com os vetores armazenados.
+
+Fluxo simplificado de RAG
+1. Carregar documentos.
+2. Dividir documentos em trechos.
+3. Gerar embeddings.
+4. Armazenar embeddings.
+5. Transformar a pergunta em embedding.
+6. Recuperar trechos semelhantes.
+7. Enviar pergunta e contexto ao LLM.
+8. Gerar a resposta.
+
+Objetivo dos estudos
+O objetivo é aprender a construir aplicações de inteligência artificial para desenvolvedores, estudando LLMs, LangChain, prompts, memória, retrieval, embeddings, tools e agents.
