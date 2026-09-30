@@ -5,6 +5,7 @@ ollama
 jupyter
 ipykernel
 python-dotenv
-langchain_chroma
-langchain_text_splitters
+langchain-chroma
+langchain-text-splitters
 chromadb
+langgraph
