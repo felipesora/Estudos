@@ -1,0 +1,145 @@
+# Base de Conhecimento — NexaTech
+
+## 1. Sobre a empresa
+
+A NexaTech é uma empresa fictícia de tecnologia especializada no desenvolvimento de sistemas corporativos, plataformas web e soluções de inteligência artificial.
+
+A empresa possui aproximadamente 120 colaboradores distribuídos entre as áreas de Engenharia de Software, Produto, Design, Dados, Inteligência Artificial, Recursos Humanos, Financeiro e Suporte.
+
+A sede da NexaTech está localizada em São Paulo, mas a empresa adota um modelo de trabalho híbrido.
+
+## 2. Horário de trabalho
+
+O horário padrão de trabalho da NexaTech é das 9h às 18h, de segunda a sexta-feira, com uma hora de intervalo para almoço.
+
+Algumas equipes podem possuir horários diferentes devido às características de suas atividades. Alterações de horário devem ser previamente acordadas com o gestor responsável.
+
+## 3. Trabalho remoto
+
+A NexaTech adota um modelo híbrido de trabalho.
+
+Os colaboradores podem trabalhar remotamente até três dias por semana. Os demais dias devem ser realizados presencialmente, de acordo com o calendário definido pela equipe.
+
+Funcionários que necessitem trabalhar remotamente por períodos superiores a três dias consecutivos devem solicitar autorização ao gestor.
+
+A empresa fornece notebook corporativo para os colaboradores que precisam trabalhar remotamente.
+
+## 4. Férias
+
+Os colaboradores possuem direito a férias conforme a legislação trabalhista brasileira.
+
+O período de férias deve ser solicitado com antecedência mínima de 30 dias.
+
+As solicitações devem ser realizadas pelo sistema interno de Recursos Humanos.
+
+O gestor da equipe é responsável por avaliar o período solicitado considerando as necessidades do time.
+
+## 5. Benefícios
+
+A NexaTech oferece os seguintes benefícios aos colaboradores:
+
+- Vale-refeição;
+- Vale-alimentação;
+- Plano de saúde;
+- Plano odontológico;
+- Vale-transporte para colaboradores elegíveis;
+- Auxílio home office;
+- Seguro de vida;
+- Programa de desenvolvimento profissional.
+
+Os valores e regras de cada benefício podem variar conforme o cargo e as políticas internas vigentes.
+
+## 6. Desenvolvimento profissional
+
+A NexaTech possui um programa interno de desenvolvimento profissional.
+
+Cada colaborador pode solicitar participação em cursos, treinamentos, certificações e eventos relacionados à sua área de atuação.
+
+Para solicitar um treinamento externo, o colaborador deve apresentar a justificativa ao gestor.
+
+O gestor avalia a solicitação considerando a relevância do treinamento para as atividades do colaborador e o orçamento disponível.
+
+## 7. Equipamentos
+
+Os equipamentos fornecidos pela empresa devem ser utilizados prioritariamente para atividades profissionais.
+
+Cada colaborador é responsável pela conservação dos equipamentos recebidos.
+
+Problemas relacionados a notebooks, monitores ou outros equipamentos devem ser comunicados ao departamento de Tecnologia.
+
+Em caso de perda ou roubo de equipamento corporativo, o colaborador deve comunicar o departamento de Tecnologia e o gestor imediatamente.
+
+## 8. Segurança da informação
+
+As credenciais utilizadas para acessar os sistemas da NexaTech são pessoais e intransferíveis.
+
+Os colaboradores não devem compartilhar senhas, tokens, códigos de autenticação ou outras credenciais de acesso.
+
+A autenticação multifator deve permanecer habilitada nos sistemas que oferecem esse recurso.
+
+Arquivos contendo informações confidenciais da empresa não devem ser enviados para serviços externos não autorizados.
+
+## 9. Senhas
+
+As senhas corporativas devem possuir pelo menos 12 caracteres.
+
+É recomendado utilizar senhas diferentes para sistemas diferentes.
+
+O colaborador deve evitar utilizar informações pessoais óbvias, como nome, data de nascimento ou nome de familiares, nas senhas.
+
+Em caso de suspeita de comprometimento de uma senha, o colaborador deve alterá-la imediatamente e comunicar o departamento de Tecnologia.
+
+## 10. Reuniões
+
+As reuniões internas devem possuir uma pauta sempre que possível.
+
+Reuniões recorrentes devem ser revisadas periodicamente para verificar se continuam sendo necessárias.
+
+A NexaTech recomenda que reuniões sejam objetivas e tenham duração compatível com o assunto discutido.
+
+Sempre que uma reunião resultar em decisões importantes, os participantes devem registrar as decisões e os responsáveis pelas próximas ações.
+
+## 11. Inteligência Artificial
+
+A NexaTech permite o uso de ferramentas de inteligência artificial para auxiliar atividades profissionais, desde que os colaboradores respeitem as políticas de segurança da informação.
+
+Informações confidenciais, dados pessoais de clientes, senhas, tokens, códigos privados ou documentos internos classificados como restritos não devem ser inseridos em ferramentas de inteligência artificial externas que não tenham sido aprovadas pela empresa.
+
+Ferramentas de IA podem ser utilizadas para tarefas como geração de ideias, revisão de textos, auxílio na programação, criação de documentação e análise de informações não confidenciais.
+
+O colaborador continua sendo responsável pela revisão das informações produzidas por ferramentas de inteligência artificial.
+
+## 12. Processo de contratação
+
+O processo seletivo da NexaTech possui quatro etapas principais:
+
+1. Análise curricular;
+2. Entrevista inicial com Recursos Humanos;
+3. Entrevista técnica com a equipe responsável pela vaga;
+4. Entrevista final com o gestor da área.
+
+Algumas posições podem possuir etapas adicionais, como testes técnicos ou apresentações.
+
+## 13. Comunicação interna
+
+A comunicação interna utiliza principalmente e-mail, Microsoft Teams e ferramentas corporativas de gerenciamento de tarefas.
+
+Assuntos urgentes devem ser comunicados diretamente ao responsável pela área.
+
+Decisões importantes tomadas em conversas informais devem ser registradas posteriormente em um canal ou sistema oficial para manter o histórico.
+
+## 14. Política de desligamento
+
+Em casos de desligamento, o colaborador deve devolver equipamentos, documentos e outros recursos pertencentes à empresa.
+
+Os acessos aos sistemas corporativos serão revogados conforme o processo interno de desligamento.
+
+Informações confidenciais continuam protegidas mesmo após o encerramento do vínculo profissional.
+
+## 15. Resumo
+
+A NexaTech é uma empresa de tecnologia que trabalha em modelo híbrido, oferece diversos benefícios e incentiva o desenvolvimento profissional.
+
+A empresa valoriza segurança da informação, uso responsável de inteligência artificial, comunicação objetiva e desenvolvimento contínuo dos colaboradores.
+
+Em caso de dúvidas sobre políticas internas, o colaborador deve consultar o departamento responsável ou seu gestor.
