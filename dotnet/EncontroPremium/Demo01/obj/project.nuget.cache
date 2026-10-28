@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "znamaXFx3f4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felipe.sora\\Documents\\EncontroPremium\\Demo01\\Demo01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\microsoft.extensions.ai\\10.8.0\\microsoft.extensions.ai.10.8.0.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.8.0\\microsoft.extensions.ai.abstractions.10.8.0.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.10\\microsoft.extensions.caching.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.10\\microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.10\\microsoft.extensions.logging.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.10\\microsoft.extensions.primitives.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\ollamasharp\\5.5.0\\ollamasharp.5.5.0.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.10\\system.diagnostics.diagnosticsource.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\system.io.pipelines\\10.0.10\\system.io.pipelines.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\system.numerics.tensors\\10.0.10\\system.numerics.tensors.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\system.text.encodings.web\\10.0.10\\system.text.encodings.web.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\system.text.json\\10.0.10\\system.text.json.10.0.10.nupkg.sha512",
+    "C:\\Users\\felipe.sora\\.nuget\\packages\\system.threading.channels\\10.0.10\\system.threading.channels.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
